@@ -17,17 +17,19 @@ This notebook uses the input files provided for the [5K PBMCs dataset](https://s
 
 The outputs are created in the `5k_pbmc_protein_v3/outs` directory and contain the following:
 
-- Run summary HTML:                      5k_pbmc_protein_v3/outs/outs/web_summary.html
-- Run summary CSV:                       5k_pbmc_protein_v3/outs/metrics_summary.csv
-- BAM:                                   5k_pbmc_protein_v3/outs/possorted_genome_bam.bam
-- BAM index:                             5k_pbmc_protein_v3/outs/possorted_genome_bam.bam.bai
-- Filtered feature-barcode matrices MEX:    5k_pbmc_protein_v3/outs/filtered_feature_bc_matrix
-- Filtered feature-barcode matrices HDF5:   5k_pbmc_protein_v3/outs/filtered_feature_bc_matrix.h5
-- Unfiltered feature-barcode matrices MEX:  5k_pbmc_protein_v3/outs/raw_feature_bc_matrix
-- Unfiltered feature-barcode matrices HDF5: 5k_pbmc_protein_v3/outs/raw_feature_bc_matrix_h5.h5
-- Secondary analysis output CSV:         5k_pbmc_protein_v3/outs/analysis
-- Per-molecule read information:         5k_pbmc_protein_v3/outs/molecule_info.h5
-- Loupe Cell Browser file:               5k_pbmc_protein_v3/outs/cloupe.cloupe
+| File  | Path |
+| ------------- | ------------- |
+| Run summary HTML                        | 5k_pbmc_protein_v3/outs/outs/web_summary.html |
+| Run summary CSV                         | 5k_pbmc_protein_v3/outs/metrics_summary.csv |
+| BAM                                     | 5k_pbmc_protein_v3/outs/possorted_genome_bam.bam
+| BAM index                               | 5k_pbmc_protein_v3/outs/possorted_genome_bam.bam.bai |
+| Filtered feature-barcode matrices MEX   | 5k_pbmc_protein_v3/outs/filtered_feature_bc_matrix |
+| Filtered feature-barcode matrices HDF5  | 5k_pbmc_protein_v3/outs/filtered_feature_bc_matrix.h5 |
+| Unfiltered feature-barcode matrices MEX | 5k_pbmc_protein_v3/outs/raw_feature_bc_matrix |
+| Unfiltered feature-barcode matrices HDF5| 5k_pbmc_protein_v3/outs/raw_feature_bc_matrix.h5 |
+| Secondary analysis output CSV:          | 5k_pbmc_protein_v3/outs/analysis |
+| Per-molecule read information:          | 5k_pbmc_protein_v3/outs/molecule_info.h5 |
+| Loupe Cell Browser file:                | 5k_pbmc_protein_v3/outs/cloupe.cloupe |
 
 ## [Example analysis in_python](10x_notebook_tutorial-3.0.0_python.ipynb)
 
